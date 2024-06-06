@@ -31,8 +31,8 @@ The project uses the following dependencies:
 ### Step 1: Clone the Repository
 Clone the repository to your local machine using the following command:
 ```bash
-git clone https://github.com/yourusername/task_management_app.git
-cd task_management_app
+git clone https://github.com/AymanYehia23/task.git
+cd task
 ```
 
 ### Step 2: Install Flutter Dependencies
@@ -75,16 +75,6 @@ dependencies:
   hive_flutter: ^1.1.0
 ```
 
-Initialize Firebase in your `main.dart` file:
-```dart
-void main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
-  await Hive.initFlutter();
-  runApp(MyApp());
-}
-```
-
 ### Step 5: Run the Application
 Connect your device or start an emulator, and use the following command to run the application:
 ```bash
@@ -95,16 +85,11 @@ flutter run
 
 ### Adding a Task
 1. Open the app.
-2. Tap the "Add Task" button.
-3. Enter the task details and save.
-
-### Editing a Task
-1. Tap on the task you want to edit.
-2. Modify the task details and save.
+2. Tap the "Create Task" button.
+3. Enter the task due date and save.
 
 ### Deleting a Task
 1. Swipe the task you want to delete to the left or right.
-2. Confirm the deletion.
 
 ### Working Offline
 - The app allows you to add, edit, and delete tasks even when offline.
