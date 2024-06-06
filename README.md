@@ -86,7 +86,7 @@ flutter run
 ### Adding a Task
 1. Open the app.
 2. Tap the "Create Task" button.
-3. Enter the task due date and save.
+3. Enter the task title, due date and save.
 
 ### Deleting a Task
 1. Swipe the task you want to delete to the left or right.
