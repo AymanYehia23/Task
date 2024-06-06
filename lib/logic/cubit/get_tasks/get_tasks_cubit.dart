@@ -77,6 +77,7 @@ class GetTasksCubit extends Cubit<GetTasksState> {
 
   //synchronize the tasks in the local database with the remote server
   Future<void> _sync() async {
+    getLocalTasks();
     emit(SyncTasksLoading());
     for (final task in _tasks) {
       if (task.deleted) {
