@@ -96,8 +96,7 @@ flutter run
 - Changes made while offline will be synced with the Firebase backend once the connection is restored.
 
 ### Finishing a Task
-1. Tap on the task you want to finish.
-2. Mark it as completed.
+1. Tap on the task you want to finish to mark it as completed.
 
 ## Building for Desktop
 To build and run the desktop version of the app:
