@@ -102,8 +102,6 @@ flutter run
 To build and run the desktop version of the app:
 ```bash
 flutter build windows
-flutter build linux
-flutter build macos
 ```
 (Note: Ensure you have set up Flutter for desktop development as per the [official documentation](https://docs.flutter.dev/desktop).)
 
